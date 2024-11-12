@@ -1,4 +1,9 @@
-/* Asterisk wild card selector to override default styles added by the browser*/
+
+/*Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Oswald:wght@200..700&display=swap')
+
+
+/*Asterisk wild card selector to override default styles added by the browser*/
 
 * {
     padding: 0;
@@ -6,10 +11,9 @@
     box-sizing: border-box;
 }
 
-/* General Styles*/
+/*General Styles*/
 
 body {
-
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,20 +23,21 @@ body {
 }
 
 
-/* Header */
+/*Header*/
+
 header {
 
     background-color: lightcoral;
 }
-/* Main Content */
+/*Main Content*/
 main {
 
     background-color: lightblue;
 
-    /* Make main element take up any surplus space to push footer down*/
+    /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
 }
-/* Footer*/
+/*Footer*/
 footer {
 
     background-color: orange;
