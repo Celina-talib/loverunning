@@ -57,7 +57,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu> li {
 
 margin-bottom: 1em;
 }
@@ -101,7 +101,7 @@ display: none;
 main {
 
 
-    
+
 /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
@@ -160,6 +160,24 @@ main {
 #benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
+
+#circle-cover-bg {
+    background: url('../images/reasons-image.webp') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 /*Footer*/
