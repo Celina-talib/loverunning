@@ -375,6 +375,29 @@ flex-wrap: wrap;
         column-count: 3;
     }
 
+    /*Gallery */
+
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .joint-button:hover {
+        border-color: #fafafa;
+        color: #454b1b;
+    }
+
 }
     /*Large devices (laptops and desktops 992px and up)*/
 
