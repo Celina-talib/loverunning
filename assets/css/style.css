@@ -108,7 +108,9 @@ main {
 /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
-
+/* Enable flex properties for child elements */
+display: flex;
+flex-direction: column;
 }
 
 
@@ -227,6 +229,16 @@ flex-wrap: wrap;
     line-height: 0;
 }
 
+/* Form */
+
+#signup {
+    background-image: url('../images/signup-image.webp');
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
 /*Footer*/
 #social-networks {
     text-align: center;
@@ -289,6 +301,7 @@ flex-wrap: wrap;
         /* Push main content down to accomodate large heading*/
         margin-top: 79px
     }
+
 
     /*Hero */
     
